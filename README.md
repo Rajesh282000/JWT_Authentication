@@ -12,6 +12,7 @@ A Spring Boot-based authentication and authorization system implementing JWT (JS
 ✔ REST API Endpoints for authentication & protected routes
 
 🏗 Project Structure
+
 ├── pom.xml                         # Maven configuration
 ├── mvnw / mvnw.cmd                 # Maven Wrapper scripts
 ├── src
@@ -27,7 +28,7 @@ A Spring Boot-based authentication and authorization system implementing JWT (JS
 │   │   │   ├── controller/                              # API Controllers
 │   │   │   │   ├── AuthController.java
 │   │   │   │   └── SimpleController.java
-│   │   │   ├── Service/                                 # Authentication Services
+│   │   │   ├── service/                                 # Authentication Services
 │   │   │   │   ├── AuthService.java
 │   │   │   │   └── AuthServiceImpl.java
 │   │   │   ├── dto/                                     # Data Transfer Objects
